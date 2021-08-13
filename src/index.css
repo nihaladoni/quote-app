@@ -1,0 +1,9 @@
+body {
+  font-weight: 500;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
