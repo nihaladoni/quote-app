@@ -1,15 +1,15 @@
-const Box = ({ data }) => {
-  if (data) {
-    return (
-      <>
-        <div className="box">
-          <p>"{data && data.content}"</p>
-        </div>
-      </>
-    );
-  } else {
-    return "";
-  }
+import Skeleton from "react-loading-skeleton";
+const Box = ({ data, loading }) => {
+  return (
+    <>
+      <div className="box">
+        <p>
+          {(loading && <Skeleton height={30} count={4} />) ||
+            (data && data.content)}
+        </p>
+      </div>
+    </>
+  );
 };
 
 export default Box;

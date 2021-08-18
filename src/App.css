@@ -1,6 +1,6 @@
 .App {
   padding: 20px;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -83,7 +83,8 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -149,7 +150,7 @@ footer {
   .box p {
     padding-left: 50px;
 
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 
   .author-button {
@@ -180,12 +181,12 @@ footer {
 
   .box p {
     padding-left: 50px;
-    font-size: 1.6rem;
+    font-size: 1.1rem;
   }
 
   .author-button {
     margin-left: 8rem;
-    width: 30%;
+    width: 50%;
   }
 
   header {
