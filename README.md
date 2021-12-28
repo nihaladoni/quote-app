@@ -32,13 +32,14 @@
 
 <a href="https://quoote-generator.herokuapp.com/">View Demo</a>
 ·
-
 <a href="https://github.com/nihaladoni/quote-app/issues">Report Bug</a>
 ·
 <a href="https://github.com/nihaladoni/quote-app/issues">Request Feature</a>
 
 </p>
 </div>
+
+![quote-demo](https://raw.githubusercontent.com/nihaladoni/cms/main/q.gif)
 
 <!-- ABOUT THE PROJECT -->
 
